@@ -26,7 +26,7 @@ if [ "$OS" = "Linux" ]; then
     if ! command -v brew >/dev/null; then
         fancy_echo "Installing Homebrew for Linux..."
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        
+
         echo -e "\neval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> "$HOME/.bashrc"
         eval "$($(brew --prefix)/bin/brew shellenv)"
     fi
@@ -216,7 +216,15 @@ install_asdf_language() {
 fancy_echo "Installing latest Ruby ..."
 install_asdf_language "ruby"
 gem update --system
-number_of_cores=$(sysctl -n hw.ncpu)
+
+if [ "$OS" = "Darwin" ]; then
+    number_of_cores=$(sysctl -n hw.ncpu)
+elif [ "$OS" = "Linux" ]; then
+    number_of_cores=$(nproc)
+else
+    number_of_cores=1
+fi
+
 bundle config --global jobs $((number_of_cores - 1))
 
 fancy_echo "Installing latest Node ..."
