@@ -39,7 +39,7 @@ You need three things to install Quantum:
 Then, with your fresh Ubuntu installation done, set your screen resolution to 200% (for those smooth looking fonts!), open the terminal with Ctrl+alt+t and enter:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/ealvar3z/quantum/master/install | bash
+wget -qO- https://raw.githubusercontent.com/ealvar3z/setup/master/install | bash
 ```
 
 This will start the installation process. It's almost entirely automated (/a la/ Omakub). You just need to approve four Gnome Extension confirmations through the middle of it, and that's it. Then, when it's done, you approve to be logged out so all the settings can take effect. You log back in, and voila!

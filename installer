@@ -3,6 +3,6 @@ sudo apt-get update > /dev/null
 sudo apt-get install -y git > /dev/null
 
 echo "Cloning QUANTUM..."
-git clone https://github.com/ealvar3z/quantum.git ~/.local/share/quantum > /dev/null
+git clone https://github.com/ealvar3z/setup.git ~/.local/share/quantum > /dev/null
 
 source ~/.local/share/quantum/install.sh
