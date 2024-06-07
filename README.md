@@ -48,12 +48,6 @@ This will start the installation process. It's almost entirely automated (/a la/
 
 DHH's tool and video presentation.
 
-## Future ideas
-
-~Quantum is being born as a single, curated setup for one specific company in one particular domain. Going forward, we could well expand that to just be a shared base, where further specialization by other curators is possible.~
-
-~But anyone using Quantum should still just have to run 1 command and the result should be 1 specific setup.~
-
 ### Acknowledgements
 
 37Signals, DHH and Default Tokyo Night and Rose Pine desktop backgrounds were designed by [freepik](https://freepik.com).
