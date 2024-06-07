@@ -1,0 +1,4 @@
+source ~/.local/share/quantum/defaults/bash/shell
+source ~/.local/share/quantum/defaults/bash/aliases
+source ~/.local/share/quantum/defaults/bash/prompt
+source ~/.local/share/quantum/defaults/bash/init

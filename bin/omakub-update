@@ -1,0 +1,3 @@
+cd $QUANTUM_PATH
+git pull
+cd -

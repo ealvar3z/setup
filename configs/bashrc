@@ -1,0 +1,4 @@
+source ~/.local/share/quantum/defaults/bash/rc
+
+# Editor used by CLI
+export EDITOR="nvim"
