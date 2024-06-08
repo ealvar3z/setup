@@ -1,1 +1,1 @@
-sudo apt install -y vlc
+# shellcheck disable=SC2148

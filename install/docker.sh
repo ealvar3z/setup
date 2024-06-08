@@ -1,4 +1,4 @@
-sudo apt install -y docker.io docker-buildx
+# shellcheck disable=SC2148
 sudo usermod -aG docker ${USER}
 
 DOCKER_COMPOSE_VERSION="2.27.0"

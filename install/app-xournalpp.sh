@@ -1,1 +1,1 @@
-sudo apt install -y xournalpp
+# shellcheck disable=SC2148

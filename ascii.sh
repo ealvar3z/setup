@@ -1,3 +1,4 @@
+#shellcheck disable=SC2148
 ascii_art=$'
 +-+-+-+-+-+-+-+
 |Q|u|a|n|t|u|m|

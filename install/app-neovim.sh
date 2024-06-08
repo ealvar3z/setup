@@ -1,4 +1,4 @@
-sudo add-apt-repository -y ppa:neovim-ppa/stable
+# shellcheck disable=SC2148
 sudo apt update
 sudo apt install -y neovim
 

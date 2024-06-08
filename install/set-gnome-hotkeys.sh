@@ -1,3 +1,5 @@
+# shellcheck disable=SC2148
+
 # Alt+F4 is very cumbersome
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>w']"
 

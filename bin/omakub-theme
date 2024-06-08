@@ -7,7 +7,6 @@ THEME=$(gum choose "Tokyo Night" "Catppuccin" "Everforest" "Gruvbox" "Rose Pine"
 source $QUANTUM_PATH/themes/gnome/$THEME.sh
 cp $QUANTUM_PATH/themes/alacritty/$THEME.toml ~/.config/alacritty/theme.toml
 cp $QUANTUM_PATH/themes/neovim/$THEME.lua ~/.config/nvim/lua/plugins/theme.lua
-sed -i "s/theme \".*\"/theme \"$THEME\"/g" ~/.config/zellij/config.kdl
 
 # Translate to specific VSC theme name
 if [ "$THEME" == "gruvbox" ]; then

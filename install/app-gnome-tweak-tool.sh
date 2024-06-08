@@ -1,1 +1,1 @@
-sudo apt install -y gnome-tweak-tool
+# shellcheck disable=SC2148

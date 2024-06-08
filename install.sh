@@ -1,5 +1,7 @@
+#shellcheck disable=SC2148
+#shellcheck disable=SC1091
 # Be fancy
-source ~/.local/share/quantum/ascii.sh
+source "$HOME/.local/share/quantum/ascii.sh"
 
 # Needed for all installers
 sudo apt update -y
@@ -9,7 +11,7 @@ sudo apt install -y curl git
 gsettings set org.gnome.desktop.session idle-delay 0
 
 # Run installers
-for script in ~/.local/share/quantum/install/*.sh; do source $script; done
+for script in "$HOME/.local/share/quantum/install/*.sh"; do source $script; done
 
 # Revert to normal idle settings
 gsettings set org.gnome.desktop.session idle-delay 300

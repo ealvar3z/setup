@@ -1,4 +1,4 @@
-mkdir -p ~/.local/share/fonts
+# shellcheck disable=SC2148
 
 cd ~/Downloads
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaMono.zip

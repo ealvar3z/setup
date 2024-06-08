@@ -1,2 +1,2 @@
-# FIXME: Get this out of snap
+# shellcheck disable=SC2148
 sudo snap install pinta
