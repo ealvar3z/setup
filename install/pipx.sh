@@ -1,2 +1,4 @@
 #shellchack disable=SC2148
-pip3 install --user pipx
+sudo apt install pipx
+pipx ensurepath
+sudo pipx ensurepath --global
