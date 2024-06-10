@@ -1,6 +1,1 @@
-[ -f "~/.bashrc" ] && mv ~/.bashrc ~/.bashrc.bak
-cp ~/.local/share/quantum/configs/bashrc ~/.bashrc
-source ~/.bashrc
-
-[ -f "~/.inputrc" ] && mv ~/.inputrc ~/.inputrc.bak
-cp ~/.local/share/quantum/configs/inputrc ~/.inputrc
+bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" --unattended

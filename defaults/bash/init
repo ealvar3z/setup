@@ -1,4 +1,8 @@
-eval "$(rbenv init - bash)"
-eval "$(nodenv init -)"
-eval "$(zoxide init bash)"
+if command -v mise &> /dev/null; then
+  eval "$(mise activate bash)"
+else
+  gum confirm "You're missing mise (replacement for rbenv + nodenv). Install now?" && \
+    source $QUANTUM_PATH/install/mise.sh
+fi
+
 source /usr/share/doc/fzf/examples/key-bindings.bash
